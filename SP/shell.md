@@ -11,12 +11,12 @@
 - Linux(Unix) 서버에 로그인 하면, 기본적으로 Shell프로그램이 가장 먼저 동작!(Shell command를 내릴 수 있는 상태가 됨)
 
 - 기본적인 Shell의 구조(Source):
-    '''
-    while (read command line from user) {  // 표준 입력을 읽어들임
-        parse the command line             // 입력을 분석
-        execute the command                // 분석한 결과가 명령어면, 명령어 실행 => 계속 loop 도는 것.
-    }
-    '''
+```
+while (read command line from user) {  // 표준 입력을 읽어들임
+    parse the command line             // 입력을 분석
+    execute the command                // 분석한 결과가 명령어면, 명령어 실행 => 계속 loop 도는 것.
+}
+```
 
 - Shell의 명령어
     - 공백이나 탭으로 분리된 인자들(arguments)들로 구성
