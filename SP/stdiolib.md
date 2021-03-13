@@ -26,8 +26,8 @@
     - 생성된 file stream 객체에서 fread/fwrite/fflush/fgetc와 같은 operation들이 발생함
 
     - 프로세스가 만들어지면 기본적으로 세 개의 **터미널 파일(console terminal)**이 OS에 의해 생성됨
-        1. *stdin*
-        2. *stdout*
-        3. *stderror*
+        1. ```stdin```
+        2. ```stdout```
+        3. ```stderror```
         - OS가 기본적으로 만들어서 그 프로세스에게 제공하는 file
         - 프로그램이 실행될 때 만들어지고, 종료될 때 자동으로 종료되는 file
